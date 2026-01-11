@@ -2,7 +2,6 @@ import type { Conversation } from "./ChatDashboard";
 import icon from "../assets/icon.png";
 import { ImUser } from "react-icons/im";
 import { FaLeaf, FaLightbulb } from "react-icons/fa";
-import { GiButterflyFlower } from "react-icons/gi";
 interface SidebarProps {
   conversations: Conversation[];
   currentAgent: string;
