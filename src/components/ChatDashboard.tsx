@@ -47,7 +47,7 @@ const ChatDashboard = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5500/chat', {
+      const response = await fetch('https://aimirtaskbackend-production.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

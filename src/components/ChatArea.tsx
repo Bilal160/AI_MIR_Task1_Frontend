@@ -113,7 +113,7 @@ const ChatArea = ({
             <p className="text-gray-500">How can I support you today?</p>
           </div>
         ) : (
-          <div className="max-w-2xl mx-auto space-y-6">
+          <div className=" mx-auto space-y-6 px-4">
             {messages.map((message) => (
               <div
                 key={message.id}
